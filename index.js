@@ -22,13 +22,13 @@ function longPlaneteerCalls(words) {
 
 
 
-//function cheese(foods) {
-//return(foods.includes("cheddar" || "gouda" || "camembert"))
-//}
+function cheese(foods) {
+return(foods.includes("cheddar" || "gouda" || "camembert"))
+}
 
 function findTheCheese(foods) {
   if(foods.includes("cheddar" || "gouda" || "camembert")) {
-    return(foods.find(foods))
+    return(foods.find(cheese))
   } else {
     return("no cheese!")
   }
